@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header__top">
+            <img src="./src/img/LOGO.svg" alt="LOGO" class="header__logo">
+            <div class="header__info">
+                <p class="header__p">Балясников Василий Алексеевич</p>
+                <p class="header__p">Группа <i class="underline">ЭФБО-02-23</i></p>
+            </div>
+        </div>
+        <nav class="header__nav">
+            <a href="./index.html" class="header__button">Главная</a>
+            <a href="#" class="header__button header__button_active">Первый семестр</a>
+            <a href="#" class="header__button">Второй семестр</a>
+            <a href="./services.html" class="header__button">Услуги</a>
+        </nav>
+        <div class="header__nav-mb-caller"><img src="./src/img/burger-menu-svgrepo-com.svg" alt="" width="50px"
+                height="50px" id="m-b"></div>
+        <nav class="header__nav-mb" id="nav-mb">
+            <a href="./index.html" class="header__button">Главная</a>
+            <a href="#" class="header__button header__button_active">Первый семестр</a>
+            <a href="#" class="header__button">Второй семестр</a>
+            <a href="./services.html" class="header__button">Услуги</a>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <div class="main__menu">
+                <h3 class="main__menu-h">Навигация по странице</h3>
+                <a href="" class="main__menu-button">Лекции</a>
+                <a href="" class="main__menu-button">Практики</a>
+                <a href="" class="main__menu-button">Адрес вуза</a>
+                <a href="" class="main__menu-button">Рабочая программа</a>
+            </div>
+            <div class="main__content">
+                <h1>Первый семестр</h1>
+                <div class="main__content-item">
+                    <h2>Лекции</h2>
+                    <table id="t1" class="main__table">
+                        <tbody>
+                            <tr class="main__table-row main__table-row_header">
+                                <th>Номер</th>
+                                <th>Тема</th>
+                                <th>Посещение</th>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">1</td>
+                                <td>Основы языка HTML</td>
+                                <td class="tc"><input type="checkbox" name="" id="" checked></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">2</td>
+                                <td>Углубленное изучение HTML</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">3</td>
+                                <td>Основы работы с CSS</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">4</td>
+                                <td>Адаптивная верстка. Flexbox и Grid Layout</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">5</td>
+                                <td>Bootstrap - работа с фреймворком</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">6</td>
+                                <td>Основы языка JavaScript</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">7</td>
+                                <td>Работа с DOM и событиями JavaScript</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">8</td>
+                                <td>Введение в GitHub и GitHub Pages</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button id="btn2">Показать лекции</button>
+                </div>
+                <div class="main__content-item">
+                    <h2>Практики</h2>
+                    <table class="main__table" id="t2">
+                        <tbody>
+                            <tr class="main__table-row main__table-row_header">
+                                <th>Номер</th>
+                                <th>Тема</th>
+                                <th>Посещение</th>
+                                <th>Выполнение</th>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">1</td>
+                                <td>Основы языка HTML</td>
+                                <td class="tc"><input type="checkbox" name="" id="" checked></td>
+                                <td class="tc"><input type="checkbox" name="" id="" checked></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">2</td>
+                                <td>Формы и кнопки в HTML</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">3</td>
+                                <td>Таблицы и интерактивные элементы HTML</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">4</td>
+                                <td>Основы работы с CSS</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">5</td>
+                                <td>Работа с классами в CSS</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">6</td>
+                                <td>Работа с сетками и разметкой в HTML</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">7</td>
+                                <td>Адаптивная верстка</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">8</td>
+                                <td>Bootstrap</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">9</td>
+                                <td>Основы языка JavaScript</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">10</td>
+                                <td>Базовые задачи на JS</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">11</td>
+                                <td>DOM-структура прииложений и работа с объектами в языке JS</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">12</td>
+                                <td>Встраивание скриптов</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">13</td>
+                                <td>Отладка сценариев</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">14</td>
+                                <td>Анимации и работа с ними</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">15</td>
+                                <td>GitHub</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                            <tr class="main__table-row">
+                                <td class="tc">16</td>
+                                <td>Защита проекта</td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                                <td class="tc"><input type="checkbox" name="" id=""></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button id="btn">Посмотреть темы второго семестра</button>
+                </div>
+                <div class="main__content-item">
+                    <div class="accordion accordion-flush" id="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Тема практики 1
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                <div class="accordion-body">Задание на практику</div>
+                            </div>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Тема практики 2
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                <div class="accordion-body">Задание на практику</div>
+                            </div>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Тема практики 3
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordion">
+                                <div class="accordion-body">Задание на практику</div>
+                            </div>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordion">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__content-item">
+                    <div id="carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./src/img/vis.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./src/img/vis.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./src/img/vis.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="main__content-item">
+                    <h3>Занятия проходят по адресу Москва, Пр-т Вернадского, д. 78</h3>
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A928c2c4b851529e52835cbbd6e279f6dd606e66e9d8c9a1bb1eb2342d61a549c&amp;source=constructor"
+                        class="main__map" frameborder="0"></iframe>
+                </div>
+                <div class="main__content-item">
+                    <h2>Рабочая программа</h2>
+                    <embed src="./src/pdf/ПР_3_HTML_Таблицы и мультимедиа (1).pdf" type="" class="main__embed">
+                    <button class="load">Скачать</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p>
+                &copy; Балясников Василий Алексеевич, 2024
+            </p>
+            <img src="./src/img/telegram-svgrepo-com.svg" alt="telegram" class="footer__icon">
+        </div>
+    </footer>
+    <a href="#" class="up">Вверх</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/s13.js"></script>
+    <script src="./scripts/s14.js"></script>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
